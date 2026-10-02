@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "lotsofsounds": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.lotsofsounds.com/mcp",
+        "--header",
+        "x-api-key:${LOS_API_KEY}"
+      ],
+      "env": { "LOS_API_KEY": "los_your_key" }
+    }
+  }
+}

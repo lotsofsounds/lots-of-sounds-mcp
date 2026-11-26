@@ -1,5 +1,7 @@
 # Lots of Sounds MCP server
 
+[![Lots of Sounds MCP connector](https://glama.ai/mcp/connectors/com.lotsofsounds/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.lotsofsounds/mcp)
+
 Give Claude, Cursor, ChatGPT or any [Model Context Protocol](https://modelcontextprotocol.io) client access to **12,000+ CC0 sound effects** from [Lots of Sounds](https://www.lotsofsounds.com).
 
 This repo holds setup guides and example prompts for the **hosted** MCP server. There is nothing to install or run yourself.
@@ -59,6 +61,10 @@ Add this to `~/.cursor/mcp.json` (or your client's MCP config). See [`configs/cu
 ### Claude Desktop
 
 Claude Desktop connects to remote servers through `mcp-remote`. See [`configs/claude_desktop_config.json`](configs/claude_desktop_config.json).
+
+### Cline
+
+See [`llms-install.md`](llms-install.md) for one-step Streamable HTTP setup in `cline_mcp_settings.json`.
 
 ### OpenAI Agents SDK
 
